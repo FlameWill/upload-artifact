@@ -1,0 +1,16 @@
+{
+	"name": "@flamewill/upload-artifact",
+	"private": true,
+	"license": "MIT",
+	"type": "module",
+	"description": "FlameWill/upload-artifact: actions/upload-artifact's inputs, kept by FlameWill on a FlameWill runner, GitHub's own action everywhere else (HANDOVER D252). The file search is actions/upload-artifact's own file, unchanged (vendor/search.ts from v7.0.2, the latest release, byte for byte the file v4.6.2 has too, MIT, vendor/SHA256SUMS), bundled with src/stage.mjs into dist/stage.mjs.",
+	"scripts": {
+		"build": "node build.mjs",
+		"test": "node --test \"test/*.test.mjs\""
+	},
+	"devDependencies": {
+		"@actions/core": "3.0.1",
+		"@actions/glob": "0.7.0",
+		"esbuild": "0.28.2"
+	}
+}
